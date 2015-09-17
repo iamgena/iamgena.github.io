@@ -1,0 +1,53 @@
+// grid
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$susy: (
+  columns: 12,
+  gutters: 1/2,
+  gutter-position: inside,  //after (before | after | split | inside | inside-static )
+  global-box-sizing: border-box,
+);
+
+// breakpoints
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$bp-tiny:     max-width 320px;
+$bp-small:    480px;
+$bp-mid:      768px;
+$bp-wide:     1024px;
+
+//containers
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$c-small:  94%;
+$c-mid:    90%;
+$c-large:  1200px;
+
+
+// colors
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$gray-base:              #000 !default;
+$gray-darker:            lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:              lighten($gray-base, 20%) !default;   // #333
+$gray:                   lighten($gray-base, 33.5%) !default; // #555
+$gray-light:             lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
+
+$brand-primary:          #e0bb56 !default; // yellow
+$brand-success:          #5cb85c !default;
+$brand-info:             #56a7a7 !default;
+$brand-warning:          #e0bb56 !default;
+$brand-danger:           #a54523 !default;
+
+// fonts
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$base-font-family:              'Roboto Condensed', sans-serif;
+$headings-font-family:          'Medula One', cursive;
+
+$typecsset-base-font-size:      16px !default;
+$typecsset-base-line-height:    24px !default;
+
+// Heading sizes
+$typecsset-h1-size:             48px !default;
+$typecsset-h2-size:             36px !default;
+$typecsset-h3-size:             30px !default;
+$typecsset-h4-size:             24px !default;
+$typecsset-h5-size:             20px !default;
+$typecsset-h6-size:             18px !default;
